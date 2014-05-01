@@ -1,0 +1,20 @@
+{
+	"id": "nodebb-plugin-badges",
+	"name": "Badges",
+	"description": "An achievement system for NodeBB",
+	"url": "https://github.com/psychobunny/nodebb-plugin-badges",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "action:app.load", "method": "init"
+		},
+		{
+			"hook": "action:user.set", "method": "userModified"
+		}
+	],
+	"staticDir": "./static",
+	"templates": "./static/templates",
+	"less": [
+		"./less/style.less"
+	]
+}

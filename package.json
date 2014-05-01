@@ -1,0 +1,29 @@
+{
+  "name": "nodebb-plugin-badges",
+  "version": "0.0.1",
+  "description": "Badges: an achievement system for NodeBB",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psychobunny/nodebb-plugin-badges"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "badges",
+    "achievements",
+    "rewards"
+  ],
+  "author": {
+    "name": "psychobunny",
+    "email": "psycho.bunny@hotmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/psychobunny/nodebb-plugin-badges/issues"
+  },
+  "homepage": "https://github.com/psychobunny/nodebb-plugin-badges"
+}
