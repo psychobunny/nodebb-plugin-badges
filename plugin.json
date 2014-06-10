@@ -9,12 +9,23 @@
 			"hook": "action:app.load", "method": "init"
 		},
 		{
+			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+		},
+		{
+			"hook": "filter:admin.scripts.get", "method": "addAdminScripts"
+		},
+		{
 			"hook": "action:user.set", "method": "userModified"
 		}
 	],
-	"staticDir": "./static",
+	"staticDirs": {
+		"static": "./static"
+	},
 	"templates": "./static/templates",
 	"less": [
 		"./less/style.less"
+	],
+	"css": [
+		"./static/vendor/iconselect.css"
 	]
 }

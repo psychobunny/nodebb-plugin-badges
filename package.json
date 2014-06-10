@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/psychobunny/nodebb-plugin-badges/issues"
   },
-  "homepage": "https://github.com/psychobunny/nodebb-plugin-badges"
+  "homepage": "https://github.com/psychobunny/nodebb-plugin-badges",
+  "minver": "0.4.3"
 }
